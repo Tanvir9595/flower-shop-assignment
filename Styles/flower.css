@@ -40,9 +40,15 @@
     font-size: 18px;
 }
 
-.flowers{
+main {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.flowers {
     margin: 130px 0;
 }
+
 .featured-flowers {
     color: #272727;
     text-align: center;
@@ -57,5 +63,141 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
 
+.pic-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.flowers-info-container {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    ;
+}
+
+.pic {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.hot-deal {
+    padding: 100px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deal .deal-pic {
+    width: 318px;
+    height: 420px;
+}
+
+.deal {
+    padding: 100px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.insta-pic {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-bottom: 80px;
+}
+
+.instagram {
+    margin: 50px 0;
+}
+
+.insta-flowers {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.insta-desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.coupon-container {
+    background-color: rgba(229, 84, 115, 0.1);
+    background-image: url('../FlowerAsset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+}
+
+
+.coupon-greeting {
+    color: #272727;
+    font-family: Lato;
+    font-style: bold;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.coupon-desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.place-button{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+}
+.btn-second {
+    border-radius: 5px;
+    background-color: rgb(248, 68, 107);
+    border: 100 400;
+    color: white;
+    font-size: 10px;
+    padding: 10px 15px;
+}
+
+.footer {
+    background-color: black;
+    border-radius: 20px 20px 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.footer-greeting {
+    color: #E55473;
+    font-size: 48px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-desc {
+    color: rgba(179, 17, 17, 0.9);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    s font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-mini {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
